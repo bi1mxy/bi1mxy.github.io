@@ -10,7 +10,29 @@
   <rights>All rights reserved 2026, BI1MXY</rights>
   <subtitle>体谅、忠诚、进取、友爱、适度、爱国</subtitle>
   <title>麦香鱼的无线电小屋</title>
-  <updated>2026-02-26T14:05:04.000Z</updated>
+  <updated>2026-03-03T12:43:14.000Z</updated>
+  <entry>
+    <author>
+      <name>BI1MXY</name>
+    </author>
+    <category term="业余无线电" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
+    <category term="卫星通联" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/"/>
+    <category term="业余无线电" scheme="https://bi1mxy.github.io/tags/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
+    <category term="卫星通联" scheme="https://bi1mxy.github.io/tags/%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/"/>
+    <content>
+      <![CDATA[<p>对于持有 A 证的业余无线电爱好者，只能在</p><p>V 段甚高频（Very High Frequency）144-148MHz（也叫 2 米波段）、</p><p>U 段超高频（Ultra High Frequency）430-440MHz（也叫 70 厘米波段）和</p><p>50-54MHz（也就是神奇的 6 米波段）进行通联，</p><p>我们在取得 A 类操作证之后大多数会购买手台或者车台，而这两种设备大多数只能在 U&#x2F;V 段进行通联，而 U&#x2F;V 一般只能够进行视距通联，就算通过中继台扩大通联范围，也不过是几百公里的通联距离，一般都是本地的爱好者，能够通联到的爱好者有限，如果想通联到更多的爱好者，那就只能进行卫星通联了。那么接下来就来说一说如何进行卫星通联。</p><h1 id="需要提前准备的："><a href="#需要提前准备的：" class="headerlink" title="需要提前准备的："></a>需要提前准备的：</h1><ul><li>一部 UV 双段的手台，因为 FM 转发器卫星都是发射和接收频段分开的；</li><li>一个 UV 双段的八木天线，最少 U2V2，如果是 U7V4 的更好😄，可以直接购买成品，也可以自制，有兴趣的友台可以看看我之前的文章：《如何自制一把 UV 双段的八木天线》；</li><li>一部手机，安装好卫星定位软件，安卓就用 look4sat，还有微信小程序云端卫星，我一般用这两个；</li><li>一个手机夹，把手机固定在天线上，方便查看寻星软件实时定位，还能同时开启录屏或录音功能，把通联的过程录下来；</li><li>一个空旷无遮挡的空地，比如楼顶、路边、公园等，冰清随身携带操作证和设备执照，以免热心群众叫来帽子叔叔盘查，懂得都懂；</li><li>如果不想一直举着天线，也可以买一个带 360 度云台的三脚架，固定天线，解放双手，我没买，因为armstrong。</li><li>对于新手，建议先从 ISS 国际空间站玩起，人多，功率大。</li></ul><h1 id="操作步骤："><a href="#操作步骤：" class="headerlink" title="操作步骤："></a>操作步骤：</h1><p>1.现在软件上查询卫星的过境时间，选择一个合适的时间，同时最好是高仰角过境，这样有助于通联的成功率；</p><p><img src="/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/1.jpg" alt="图片"></p><p>2.定好闹钟，准备好装备</p><p><img src="/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/2.jpg" alt="图片"></p><p>3.考虑到卫星频率的多普勒效应，在手台中提前设置好卫星的通联频率，我设置了 5 个信道，一键调整，省时省力。也可以刷个固件，可以实时自动调整，但是就要魔改 K6，我这个没加内存，所以弄不了。</p><p><img src="/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/3.jpg" alt="图片"></p><p>4.一切就绪，只欠东风。</p><p><img src="/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/4.jpg" alt="图片"></p><p>当卫星出现时，用⭕️对准卫星，先守听一下，听听前辈们是如何CQ的，再插空CQ。因为卫星过境时间较短，也就10多分钟，所以是分秒必争，卫星通联的话术也比较简单直接：</p><p>直接说：“CQ satellite ，直接字母解释法报自己的呼号”，如果有人收到你的呼叫，会直接报你的呼号，再报自己的呼号，跟上QSL？确认你是否抄收，然后你再报对方呼号和自己呼号，QSL，就结束了一次QSO。不过对于新手来说，大佬们报呼号的速度可能太快了，如果反应不过来，就直接回复QSL即可，毕竟咱们录音了，回去听录音即可。</p><p>大致流程如下：</p><p>CQ satellite，Bravo India one Mike X-ray Yangkee；</p><p>Bravo India one Mike X-ray Yangkee, Bravo delta eight charlie bravo uniform ,QSL</p><p>Bravo delta eight charlie bravo uniform,Bravo India one Mike X-ray Yangkee,(这句可以省略，直接）QSL</p><p>5.通联后记得把通联记录上传Lotw或者QRZ，然后就可以开启你的铺格子之旅啦。祝愿大家早日拿到VUCC100的证书。</p><p>DE BI1MXY</p><p>73!</p>]]>
+    </content>
+    <id>https://bi1mxy.github.io/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/</id>
+    <link href="https://bi1mxy.github.io/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/"/>
+    <published>2026-03-03T12:43:14.000Z</published>
+    <summary>
+      <![CDATA[<p>对于持有 A 证的业余无线电爱好者，只能在</p>
+<p>V 段甚高频（Very High Frequency）144-148MHz（也叫 2 米波段）、</p>
+<p>U 段超高频（Ultra High Frequency）430-440MHz（也叫 70 厘米波段）和<]]>
+    </summary>
+    <title>如何进行业余卫星通联</title>
+    <updated>2026-03-03T12:43:14.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>BI1MXY</name>
@@ -414,26 +436,5 @@
     </summary>
     <title>如何考取业余无线电台操作证</title>
     <updated>2026-01-28T13:08:31.979Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>BI1MXY</name>
-    </author>
-    <category term="业余无线电" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
-    <category term="新手入门" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/"/>
-    <category term="业余无线电" scheme="https://bi1mxy.github.io/tags/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
-    <category term="新手入门" scheme="https://bi1mxy.github.io/tags/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/"/>
-    <content>
-      <![CDATA[<p>作为一名业余无线电爱好者，进入HAM圈子也有3年多的时间了，这是我迄今为止坚持时间最长的一项爱好了，所以，想将我这几年的进阶过程跟大家做一个分享，而且，这不仅仅是简单的分享，我认为应该能够达到以下几个目的：</p><p>1.总结回顾我所学到的业余无线电的相关知识；</p><p>2.传播业余无线电文化，毕竟这是个小众爱好，希望更多的爱好者能够进入这个圈子；</p><p>3.锻炼写作能力，都说自己会不叫会，得给其他人讲明白才叫真明白。</p><p>好了，言归正传。</p><p>起初接触业余无线电是从电视棒开始的，也叫做SDR（软件定义无线电Software Defined Radio）。</p><p><img src="/2026/01/26/1-%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF-%E5%BC%95%E5%AD%90/1.jpg" alt="图片"></p><p>这个设备能够通过电脑，接收到业余无线电频段的信号，让我们能够初窥业余无线电的魅力，而且价格亲民，即使发现自己对业余无线电不感兴趣，也不心疼。</p><p>还记得第一次使用电视棒成功地接收到无线电信号时激动的心情，自此，也就和业余无线电开始了不解的情缘。</p><p>为了进一步深入了解业余无线电，在网络上进行了一番搜索学习，发现要想成为一名合法合规的业余无线电爱好者，是需要根据《业余无线电台管理办法》考取业余无线电台操作证的，因此，就开启了我的考证之路，大家也不要一听到考证就打退堂鼓，这个考试是有题库的，考前过几遍题库，通过率还是很高的。</p><p>考取了操作证之后，就在业余无线电这条路上越走越远，手台、字母解释法、本地通联、中继通联、QSL卡片、卫星通联、SSTV、自制天线、考B证、短波通联、CW…业余无线电的大门缓缓地在向我们打开，她不仅能让我们学习到一个新的领域的知识，也能让我们结交新的朋友，还能让我们在紧急时刻，承担一份社会责任感，如果你也想成为一名业余无线电爱好者，或者只是想了解一下相关的知识，就请随我一起慢慢揭开她神秘的面纱，体会她的奇妙与挑战吧。</p>]]>
-    </content>
-    <id>https://bi1mxy.github.io/2026/01/26/1-%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF-%E5%BC%95%E5%AD%90/</id>
-    <link href="https://bi1mxy.github.io/2026/01/26/1-%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF-%E5%BC%95%E5%AD%90/"/>
-    <published>2026-01-26T13:15:22.000Z</published>
-    <summary>
-      <![CDATA[<p>作为一名业余无线电爱好者，进入HAM圈子也有3年多的时间了，这是我迄今为止坚持时间最长的一项爱好了，所以，想将我这几年的进阶过程跟大家做一个分享，而且，这不仅仅是简单的分享，我认为应该能够达到以下几个目的：</p>
-<p>1.总结回顾我所学到的业余无线电的相关知识；</p>]]>
-    </summary>
-    <title>业余无线电进阶之路-引子</title>
-    <updated>2026-01-28T12:07:54.097Z</updated>
   </entry>
 </feed>
