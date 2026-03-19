@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>如何制作PCB呼号牌</title>
+      <link href="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/"/>
+      <url>/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/</url>
+      
+        <content type="html"><![CDATA[<p>最近在嘉立创开源广场免费制作呼号牌，有小伙伴问如何制作，今天就简单写个教程，分享给PCB小白，我当初可是研究了半天才整明白的。</p><p><img src="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/1.jpg" alt="图片"></p><p><img src="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/2.jpg" alt="图片"></p><p>1️⃣ 在嘉立创开源广场搜呼号牌，这里的项目都是开源的，免费使用</p><p><a href="https://link.zhihu.com/?target=https://oshwhub.com/">https://link.zhihu.com/?target=https%3A//oshwhub.com/</a></p><p>2️⃣ 选择一个你喜欢的设计，目前开源广场里呼号牌的项目不多，我选择的是bi3tjt的项目，下载附件备用</p><p>3️⃣ 下载、安装、注册、激活嘉立创EDA专业版，网上教程很多，就不赘述了</p><p>4️⃣ 激活EDA专业版后打开下载的附件，把呼号改为自己的呼号，这里要注意，要把顶层和顶层阻焊层两处的呼号进行修改，并对齐两个图层。另外，再根据自己的喜好，修改设计稿中的其他内容，包括地名、ITU zone、CQ zone和梅登海德网格信息等内容</p><p>5️⃣ 添加客户编号，建议选择指定位置添加，避免影响设计稿的整体美观，因此需要将“JLCJLCJLCJLC”添加到你想要的位置，嘉立创会根据“JLCJLCJLCJLC”修改为客户编号。</p><p>6️⃣ 先做题，考试合格后免费领2-4层沉金券，然后免费打板！不过现在好像需要上个月的实付订单大于20元才可以，大家可以试试。</p><p>个人觉得还是黑色沉金的好看，以后有机会得弄一个，不过现在正在研究怎么给卡片增加点小功能，比如变成门禁卡，这掏出来刷一下，多帅。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 业余无线电 </category>
+          
+          <category> 呼号牌 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 业余无线电 </tag>
+            
+            <tag> 呼号牌 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何搭建自己的wavelog通联日志系统</title>
       <link href="/2026/03/11/22-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84wavelog%E9%80%9A%E8%81%94%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F/"/>
       <url>/2026/03/11/22-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84wavelog%E9%80%9A%E8%81%94%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F/</url>

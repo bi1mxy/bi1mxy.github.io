@@ -10,7 +10,28 @@
   <rights>All rights reserved 2026, BI1MXY</rights>
   <subtitle>体谅、忠诚、进取、友爱、适度、爱国</subtitle>
   <title>麦香鱼的无线电小屋</title>
-  <updated>2026-03-11T12:09:58.000Z</updated>
+  <updated>2026-03-19T13:53:24.000Z</updated>
+  <entry>
+    <author>
+      <name>BI1MXY</name>
+    </author>
+    <category term="业余无线电" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
+    <category term="呼号牌" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/%E5%91%BC%E5%8F%B7%E7%89%8C/"/>
+    <category term="业余无线电" scheme="https://bi1mxy.github.io/tags/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
+    <category term="呼号牌" scheme="https://bi1mxy.github.io/tags/%E5%91%BC%E5%8F%B7%E7%89%8C/"/>
+    <content>
+      <![CDATA[<p>最近在嘉立创开源广场免费制作呼号牌，有小伙伴问如何制作，今天就简单写个教程，分享给PCB小白，我当初可是研究了半天才整明白的。</p><p><img src="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/1.jpg" alt="图片"></p><p><img src="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/2.jpg" alt="图片"></p><p>1️⃣ 在嘉立创开源广场搜呼号牌，这里的项目都是开源的，免费使用</p><p><a href="https://link.zhihu.com/?target=https://oshwhub.com/">https://link.zhihu.com/?target=https%3A//oshwhub.com/</a></p><p>2️⃣ 选择一个你喜欢的设计，目前开源广场里呼号牌的项目不多，我选择的是bi3tjt的项目，下载附件备用</p><p>3️⃣ 下载、安装、注册、激活嘉立创EDA专业版，网上教程很多，就不赘述了</p><p>4️⃣ 激活EDA专业版后打开下载的附件，把呼号改为自己的呼号，这里要注意，要把顶层和顶层阻焊层两处的呼号进行修改，并对齐两个图层。另外，再根据自己的喜好，修改设计稿中的其他内容，包括地名、ITU zone、CQ zone和梅登海德网格信息等内容</p><p>5️⃣ 添加客户编号，建议选择指定位置添加，避免影响设计稿的整体美观，因此需要将“JLCJLCJLCJLC”添加到你想要的位置，嘉立创会根据“JLCJLCJLCJLC”修改为客户编号。</p><p>6️⃣ 先做题，考试合格后免费领2-4层沉金券，然后免费打板！不过现在好像需要上个月的实付订单大于20元才可以，大家可以试试。</p><p>个人觉得还是黑色沉金的好看，以后有机会得弄一个，不过现在正在研究怎么给卡片增加点小功能，比如变成门禁卡，这掏出来刷一下，多帅。</p>]]>
+    </content>
+    <id>https://bi1mxy.github.io/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/</id>
+    <link href="https://bi1mxy.github.io/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/"/>
+    <published>2026-03-19T13:53:24.000Z</published>
+    <summary>
+      <![CDATA[<p>最近在嘉立创开源广场免费制作呼号牌，有小伙伴问如何制作，今天就简单写个教程，分享给PCB小白，我当初可是研究了半天才整明白的。</p>
+<p><img]]>
+    </summary>
+    <title>如何制作PCB呼号牌</title>
+    <updated>2026-03-19T13:53:24.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>BI1MXY</name>
@@ -412,27 +433,5 @@
     </summary>
     <title>浅谈业余无线电呼号</title>
     <updated>2026-01-29T15:25:43.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>BI1MXY</name>
-    </author>
-    <category term="业余无线电" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
-    <category term="新手入门" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/"/>
-    <category term="业余无线电" scheme="https://bi1mxy.github.io/tags/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
-    <category term="新手入门" scheme="https://bi1mxy.github.io/tags/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/"/>
-    <category term="申请执照" scheme="https://bi1mxy.github.io/tags/%E7%94%B3%E8%AF%B7%E6%89%A7%E7%85%A7/"/>
-    <content>
-      <![CDATA[<p>书接上回，考试顺利通过，取得业余无线电操作证书之后，就可以申领无线电台执照了。打个比方，操作证书就像驾驶证，说明你已经有了操作无线电设备的能力，而电台执照，就好比行驶本，所以也得给你的无线电设备办个证。</p><p>根据《业余无线电台管理办法》第三十条规定，取得A类业余无线电台操作技术能力验证证书的，可以申请设置、使用工作在30-3000MHz频段且最大发射功率不大于25瓦的业余无线电台。根据上述规定，取得A证的朋友们可以使用的业余无线电台大致分为两大类：手持无线电台和车载无线电台，也就是我们常说的手台和车台。</p><p>接下来，大家就可以根据自己的需求和喜好去选购设备啦！不过在购买之前，大家还是要注意一点，就是咱们购买的设备要取得设备核准代码，该信息可以通过智谱APP进行查询。在APP首页点击型号核准</p><p><img src="/2026/01/28/3-%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8F%B0%E6%89%A7%E7%85%A7/1.jpg" alt="图片"></p><p>在设备型号行输入设备型号</p><p><img src="/2026/01/28/3-%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8F%B0%E6%89%A7%E7%85%A7/2.jpg" alt="图片"></p><p>这里一定要按照产品包装上的型号输入完整，字母可以不区分大小写，但是如“-”这种小的破折号也要输入，否则无法查询到相应的信息，比如输入UVK6就查不到，需要输入UV-K6。</p><p><img src="/2026/01/28/3-%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8F%B0%E6%89%A7%E7%85%A7/3.jpg" alt="图片"></p><p>只要心仪的设备有核准代码且在有效期之内，就可以放心购买啦。另外，即使核准码过期，但只要设备的生产日期在核准有效期内，也是OK的（这个没有亲自验证过，是听其他大佬介绍的经验）。</p><p>设备到手后，我们还需要登录&lt;北京业余无线电服务中心&gt;公众号进行&lt;设备登记&gt;，根据提示，一步步填写和提交相关信息后，还需要耐心等待一阵，就可以取得电台执照，同时，我们还将拥有全球唯一、独属于自己的无线电台识别码，也就是–电台呼号，随后，我们就可以合法通联了。</p><p>不过在正式通联前，也建议新手们先了解一下通联的基本规则，比如要先守听，听一听频率上的HAM是如何通联的，在熟悉通联规范和字母解释法后，就可以尝试直频或者中继通联了。</p><p>恭喜已经获得或即将获得呼号的新友台们，期待与你们的通联。</p><p>DE BI1MXY （麦香鱼）</p><p>73！</p>]]>
-    </content>
-    <id>https://bi1mxy.github.io/2026/01/28/3-%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8F%B0%E6%89%A7%E7%85%A7/</id>
-    <link href="https://bi1mxy.github.io/2026/01/28/3-%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8F%B0%E6%89%A7%E7%85%A7/"/>
-    <published>2026-01-28T12:51:22.000Z</published>
-    <summary>
-      <![CDATA[<p>书接上回，考试顺利通过，取得业余无线电操作证书之后，就可以申领无线电台执照了。打个比方，操作证书就像驾驶证，说明你已经有了操作无线电设备的能力，而电台执照，就好比行驶本，所以也得给你的无线电设备办个证。</p>
-<p>根据《业余无线电台管理办法》第三十条规定，取得A类业余无]]>
-    </summary>
-    <title>如何申请业余无线电台执照</title>
-    <updated>2026-01-28T13:08:18.190Z</updated>
   </entry>
 </feed>
