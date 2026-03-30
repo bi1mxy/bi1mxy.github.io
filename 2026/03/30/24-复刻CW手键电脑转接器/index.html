@@ -1,0 +1,387 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>复刻CW手键电脑转接器 | 麦香鱼的无线电小屋</title><meta name="author" content="BI1MXY"><meta name="copyright" content="BI1MXY"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="这是BI8EGZ大佬的开源项目，分享一下我的复刻过程。 https:&#x2F;&#x2F;link.zhihu.com&#x2F;?target&#x3D;https%3A&#x2F;&#x2F;github.com&#x2F;mengxw8&#x2F;ebook2cwgui&#x2F;tree&#x2F;master 首先下载项目的开源资料，国内链接github网站不稳定，打不开就多试几次。 下载zip文件。  找到firmwire里的gerber文件：“CW电脑练习器v1.0”，使用嘉立创">
+<meta property="og:type" content="article">
+<meta property="og:title" content="复刻CW手键电脑转接器">
+<meta property="og:url" content="https://bi1mxy.github.io/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/index.html">
+<meta property="og:site_name" content="麦香鱼的无线电小屋">
+<meta property="og:description" content="这是BI8EGZ大佬的开源项目，分享一下我的复刻过程。 https:&#x2F;&#x2F;link.zhihu.com&#x2F;?target&#x3D;https%3A&#x2F;&#x2F;github.com&#x2F;mengxw8&#x2F;ebook2cwgui&#x2F;tree&#x2F;master 首先下载项目的开源资料，国内链接github网站不稳定，打不开就多试几次。 下载zip文件。  找到firmwire里的gerber文件：“CW电脑练习器v1.0”，使用嘉立创">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://bi1mxy.github.io/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/cover.png">
+<meta property="article:published_time" content="2026-03-30T13:59:20.000Z">
+<meta property="article:modified_time" content="2026-03-30T13:59:20.000Z">
+<meta property="article:author" content="BI1MXY">
+<meta property="article:tag" content="业余无线电">
+<meta property="article:tag" content="电子DIY">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://bi1mxy.github.io/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/cover.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "复刻CW手键电脑转接器",
+  "url": "https://bi1mxy.github.io/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/",
+  "image": "https://bi1mxy.github.io/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/cover.png",
+  "datePublished": "2026-03-30T13:59:20.000Z",
+  "dateModified": "2026-03-30T13:59:20.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "BI1MXY",
+      "url": "https://bi1mxy.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/logo.png"><link rel="canonical" href="https://bi1mxy.github.io/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.3"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":"zh -CN","highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '复刻CW手键电脑转接器',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><style>
+  .navbar-brand .site-logo {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .site-logo img {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .navbar {
+    min-height: 60px;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+    height: 60px;
+  }
+</style>
+<meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="麦香鱼的无线电小屋" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/logo.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">24</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><span class="site-page group"><span> 业余无线电工具集</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%B7%A5%E5%85%B7%E9%9B%86/ham-toolbox/"><i class="fa-fw fas fa-wrench"></i><span> HAM工具箱</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://www.cqid.cn/news/article"><i class="fa-fw fas fa-graduation-cap"></i><span> 考试信息</span></a></li><li><a class="site-page child" href="/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%B7%A5%E5%85%B7%E9%9B%86/ham-chart/"><i class="fa-fw fas fa-chart-bar"></i><span> HAM图表</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://repeater.quickso.cn/"><i class="fa-fw fas fa-map-marked-alt"></i><span> 中继地图</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="http://yc-yjwp.ysepan.com/"><i class="fa-fw fas fa-download"></i><span> 软件库</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/timeline/"><i class="fa-fw fas fa-pen-square"></i><span> 建站日志</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/qsl/"><i class="fa-fw fas fa-paper-plane"></i><span> 交换QSL卡片</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/top.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">麦香鱼的无线电小屋</span></a><a class="nav-page-title" href="/"><span class="site-name">复刻CW手键电脑转接器</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><span class="site-page group"><span> 业余无线电工具集</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%B7%A5%E5%85%B7%E9%9B%86/ham-toolbox/"><i class="fa-fw fas fa-wrench"></i><span> HAM工具箱</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://www.cqid.cn/news/article"><i class="fa-fw fas fa-graduation-cap"></i><span> 考试信息</span></a></li><li><a class="site-page child" href="/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%B7%A5%E5%85%B7%E9%9B%86/ham-chart/"><i class="fa-fw fas fa-chart-bar"></i><span> HAM图表</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://repeater.quickso.cn/"><i class="fa-fw fas fa-map-marked-alt"></i><span> 中继地图</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="http://yc-yjwp.ysepan.com/"><i class="fa-fw fas fa-download"></i><span> 软件库</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/timeline/"><i class="fa-fw fas fa-pen-square"></i><span> 建站日志</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/qsl/"><i class="fa-fw fas fa-paper-plane"></i><span> 交换QSL卡片</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">复刻CW手键电脑转接器</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-03-30T13:59:20.000Z" title="发表于 2026年03月30日 21:59:20">2026年03月30日</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-03-30T13:59:20.000Z" title="更新于 2026年03月30日 21:59:20">2026年03月30日</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/">业余无线电</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/%E7%94%B5%E5%AD%90DIY/">电子DIY</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">481</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="twikoo_visitors"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>这是BI8EGZ大佬的开源项目，分享一下我的复刻过程。</p>
+<p><a href="https://link.zhihu.com/?target=https://github.com/mengxw8/ebook2cwgui/tree/master">https://link.zhihu.com/?target=https%3A//github.com/mengxw8/ebook2cwgui/tree/master</a></p>
+<p>首先下载项目的开源资料，国内链接github网站不稳定，打不开就多试几次。</p>
+<p>下载zip文件。</p>
+<p><img src="/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/1.png" alt="图片"></p>
+<p>找到firmwire里的gerber文件：“CW电脑练习器v1.0”，使用嘉立创PCB免费打样，得到5块板子。</p>
+<p>导出BOM（物理清单）进行采购，因为所需物料较少，问了很多TB商家都不配单（不够起订量），最终是问了EGZ大佬才推荐了一家能够小批量配单的商家，这里也分享给大家（非广勿喷）。</p>
+<p><a href="https://link.zhihu.com/?target=https://e.tb.cn/h.7nIu4Zb3RWbM2nV?tk=bO9RUUP95cw">https://link.zhihu.com/?target=https%3A//e.tb.cn/h.7nIu4Zb3RWbM2nV%3Ftk%3DbO9RUUP95cw</a></p>
+<p>之后就是焊接了，建议使用热风枪，反正我用烙铁是焊不好，以后要是复刻的项目多了，可以考虑入手一个焊台，我看正点原子的HP20就不错，不知道原子哥能不能送我一个，哈哈。</p>
+<p>焊好之后还需要编译代码和烧录程序，对我编程小白的我来说写代码太难了，不过项目里已经编译好，新手友好，直接下载就好了。但是项目里的.hex文件有点问题，我找EGZ重新编译了一下，分享给大家。</p>
+<p><a href="https://link.zhihu.com/?target=https://pan.baidu.com/s/1kh3YzstoXQK5Pf3tZgUetw">https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1kh3YzstoXQK5Pf3tZgUetw</a></p>
+<p>最后就是烧录程序了。因为使用的芯片是南京沁恒的ch552，要先到官网下载烧录程序，地址如下：</p>
+<p><a href="https://link.zhihu.com/?target=https://www.wch.cn/downloads/WCHISPTool_Setup_exe.html">https://link.zhihu.com/?target=https%3A//www.wch.cn/downloads/WCHISPTool_Setup_exe.html</a></p>
+<p><img src="/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/2.png" alt="图片"></p>
+<p>按照图片红框选择，最后点击下载就OK啦。烧录完成后需要手键配合电脑软件Lakey使用。软件也分享给大家：</p>
+<p>通过网盘分享的文件：Lakey<br>链接: <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1exSYIuek3-KgIeeBSU3_VQ?pwd=x3pm">https://pan.baidu.com/s/1exSYIuek3-KgIeeBSU3_VQ?pwd=x3pm</a> 提取码: x3pm</p>
+<p>好了，有兴趣小伙伴也搞起来吧</p>
+<p>DE BI1MXY</p>
+<p>73</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://bi1mxy.github.io">BI1MXY</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://bi1mxy.github.io/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/">https://bi1mxy.github.io/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://bi1mxy.github.io" target="_blank">麦香鱼的无线电小屋</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/">业余无线电</a><a class="post-meta__tags" href="/tags/%E7%94%B5%E5%AD%90DIY/">电子DIY</a></div><div class="post-share"><div class="social-share" data-image="/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/cover.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞赏作者</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.png" target="_blank"><img class="post-qr-code-img" src="/img/wechat.png"/></a><div class="post-qr-code-desc"></div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/alipay.jpg"/></a><div class="post-qr-code-desc"></div></li></ul></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/" title="如何制作PCB呼号牌"><img class="cover" src="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/1.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">如何制作PCB呼号牌</div></div><div class="info-2"><div class="info-item-1">最近在嘉立创开源广场免费制作呼号牌，有小伙伴问如何制作，今天就简单写个教程，分享给PCB小白，我当初可是研究了半天才整明白的。   1️⃣ 在嘉立创开源广场搜呼号牌，这里的项目都是开源的，免费使用 https://link.zhihu.com/?target=https%3A//oshwhub.com/ 2️⃣ 选择一个你喜欢的设计，目前开源广场里呼号牌的项目不多，我选择的是bi3tjt的项目，下载附件备用 3️⃣ 下载、安装、注册、激活嘉立创EDA专业版，网上教程很多，就不赘述了 4️⃣ 激活EDA专业版后打开下载的附件，把呼号改为自己的呼号，这里要注意，要把顶层和顶层阻焊层两处的呼号进行修改，并对齐两个图层。另外，再根据自己的喜好，修改设计稿中的其他内容，包括地名、ITU zone、CQ zone和梅登海德网格信息等内容 5️⃣ 添加客户编号，建议选择指定位置添加，避免影响设计稿的整体美观，因此需要将“JLCJLCJLCJLC”添加到你想要的位置，嘉立创会根据“JLCJLCJLCJLC”修改为客户编号。 6️⃣ 先做题，考试合格后免费领2-4层沉金券，然后免费打板！不过现在好...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/" title="如何进行业余卫星通联"><img class="cover" src="/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/cover.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026年03月03日</div><div class="info-item-2">如何进行业余卫星通联</div></div><div class="info-2"><div class="info-item-1">对于持有 A 证的业余无线电爱好者，只能在 V 段甚高频（Very High Frequency）144-148MHz（也叫 2 米波段）、 U 段超高频（Ultra High Frequency）430-440MHz（也叫 70 厘米波段）和 50-54MHz（也就是神奇的 6 米波段）进行通联， 我们在取得 A 类操作证之后大多数会购买手台或者车台，而这两种设备大多数只能在 U&#x2F;V 段进行通联，而 U&#x2F;V 一般只能够进行视距通联，就算通过中继台扩大通联范围，也不过是几百公里的通联距离，一般都是本地的爱好者，能够通联到的爱好者有限，如果想通联到更多的爱好者，那就只能进行卫星通联了。那么接下来就来说一说如何进行卫星通联。 需要提前准备的： 一部 UV 双段的手台，因为 FM 转发器卫星都是发射和接收频段分开的； 一个 UV 双段的八木天线，最少 U2V2，如果是 U7V4 的更好😄，可以直接购买成品，也可以自制，有兴趣的友台可以看看我之前的文章：《如何自制一把 UV 双段的八木天线》； 一部手机，安装好卫星定位软件，安卓就用 look4sat，还有微信小程序...</div></div></div></a><a class="pagination-related" href="/2026/03/11/22-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84wavelog%E9%80%9A%E8%81%94%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F/" title="如何搭建自己的wavelog通联日志系统"><img class="cover" src="/2026/03/11/22-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84wavelog%E9%80%9A%E8%81%94%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F/cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026年03月11日</div><div class="info-item-2">如何搭建自己的wavelog通联日志系统</div></div><div class="info-2"><div class="info-item-1">因为看到其他友台使用wavelog的界面很好看，所以也想自己搭建一个试试，但是找遍全网，没有一篇如何使用wavelog搭建通联日志的教程，所以只能自己摸索试试。 对于github，我也是萌新，所以只能根据项目的User Guide一步步操作，也把我的搭建过程分享给大家。 https://link.zhihu.com/?target=https%3A//github.com/wavelog/wavelog/wiki 我是Windows系统，所以要选择Windows的安装指南。  1️⃣ 首先要Download and Install WAMP ，下面是官网下载链接 https://link.zhihu.com/?target=http%3A//www.wampserver.com/en/download.php 2️⃣ 下载完成后，安装wamp时又提示需要安装C++  3️⃣ 于是，继续根据提示下载所需软件，然后安装。 https://link.zhihu.com/?target=https%3A//github.com/abbodi1406/vcredist/releases/d...</div></div></div></a><a class="pagination-related" href="/2026/02/01/17-%E5%A6%82%E4%BD%95%E6%94%B6%E5%90%ACNCDXF%E7%9F%AD%E6%B3%A2%E4%BF%A1%E6%A0%87%E5%8F%B0/" title="如何收听NCDXF短波信标台"><img class="cover" src="/2026/02/01/17-%E5%A6%82%E4%BD%95%E6%94%B6%E5%90%ACNCDXF%E7%9F%AD%E6%B3%A2%E4%BF%A1%E6%A0%87%E5%8F%B0/1.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026年02月01日</div><div class="info-item-2">如何收听NCDXF短波信标台</div></div><div class="info-2"><div class="info-item-1">NCDXF短波信标台是由NCDXF（北加州DX基金会）和IARU（国际业余无线电联盟）合作构建并运营的全球HF无线电信标网络，在全世界范围内设置了18个信标台，组成了一个覆盖全球的信标网络，该信标网络在 14.100、18.110、21.150、24.930 和 28.200MHz这5五个频率发送信号，帮助业余和商业HF无线电用户评估电离层的当前状况。整个系统由志愿者负责设计、搭建和运营。 1979 年，首个信标从加利福尼亚州北部开始发送信号，其成效显著，以至于国际业余无线电联盟（IARU）提议建立一个 24 小时不间断运行的全球性信标网络。在接下来的几年里，该网络逐步扩展。由 18 个信标组成的当前系统于 1995 年投入运行，此后一直持续运行至今。  这些信标台会在14.100、18.110、21.150、24.930和28.200MHz这5个频率上发送信号，每个信标台在每个频率上发送信号3分钟。以CW模式发送该信标台的呼号，速度为22wpm，随后跟随4个嗒音（dash），呼号和第一个dash发射功率为100瓦，随后的三个dash发射功率分别为10瓦、1瓦和100毫瓦。在每次...</div></div></div></a><a class="pagination-related" href="/2026/01/28/3-%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%8F%B0%E6%89%A7%E7%85%A7/" title="如何申请业余无线电台执照"><img class="cover" src="/img/cover4.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026年01月28日</div><div class="info-item-2">如何申请业余无线电台执照</div></div><div class="info-2"><div class="info-item-1">书接上回，考试顺利通过，取得业余无线电操作证书之后，就可以申领无线电台执照了。打个比方，操作证书就像驾驶证，说明你已经有了操作无线电设备的能力，而电台执照，就好比行驶本，所以也得给你的无线电设备办个证。 根据《业余无线电台管理办法》第三十条规定，取得A类业余无线电台操作技术能力验证证书的，可以申请设置、使用工作在30-3000MHz频段且最大发射功率不大于25瓦的业余无线电台。根据上述规定，取得A证的朋友们可以使用的业余无线电台大致分为两大类：手持无线电台和车载无线电台，也就是我们常说的手台和车台。 接下来，大家就可以根据自己的需求和喜好去选购设备啦！不过在购买之前，大家还是要注意一点，就是咱们购买的设备要取得设备核准代码，该信息可以通过智谱APP进行查询。在APP首页点击型号核准  在设备型号行输入设备型号  这里一定要按照产品包装上的型号输入完整，字母可以不区分大小写，但是如“-”这种小的破折号也要输入，否则无法查询到相应的信息，比如输入UVK6就查不到，需要输入UV-K6。  只要心仪的设备有核准代码且在有效期之内，就可以放心购买啦。另外，即使核准码过期，但只要设备的生产日...</div></div></div></a><a class="pagination-related" href="/2026/02/03/18-%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E7%9F%AD%E6%B3%A2%E9%80%9A%E8%81%94%E5%9B%9B%E8%A6%81%E7%B4%A0%EF%BC%9A%E4%BC%A0%E6%92%AD%C2%B7%E7%8E%AF%E5%A2%83%C2%B7%E5%A4%A9%E7%BA%BF%C2%B7%E8%AE%BE%E5%A4%87/" title="业余无线电短波通联四要素：传播·环境·天线·设备"><img class="cover" src="/2026/02/03/18-%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E7%9F%AD%E6%B3%A2%E9%80%9A%E8%81%94%E5%9B%9B%E8%A6%81%E7%B4%A0%EF%BC%9A%E4%BC%A0%E6%92%AD%C2%B7%E7%8E%AF%E5%A2%83%C2%B7%E5%A4%A9%E7%BA%BF%C2%B7%E8%AE%BE%E5%A4%87/cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026年02月03日</div><div class="info-item-2">业余无线电短波通联四要素：传播·环境·天线·设备</div></div><div class="info-2"><div class="info-item-1">要进行短波通联，我认为需要了解一下影响短波通联的几个要素，就我个人的经验而言，从高到低的影响因素为 1.传播➡️2.环境➡️3.天线➡️4.设备。 首先来说说传播：众所周知，短波的远距离传送是靠电离层反射实现的，地球的大气是由几层或几个部分构成的，有我们熟知的的对流层、平流层…而我们短波通联最关心的是最上面的部分，叫做电离层，无线电波进入电离层时会改变方向，多次反射后再传回地面。  电离层分为 D, E 和 F 层（别问我为啥没有 ABC 层，我也不知道^_^）,太阳的紫外线辐射给这些层充电，从而影响电波的传输。  接下来说说各层的特点。 D 层： D 层是最低也是最密的层它在地球表面上方 60 到 90 公里的地方 因为它的密度高，D 层是吸收电波信号的 对射频的吸收是与波长有关的。 长的波段比如 160m 和 80m 是最受影响的 D 层的影响在 40m 波段要小一些, 20m 波段比较轻微，而更高的频率就基本没什么影响了 这一层的电离程度直接受太阳光的影响，因此，D 层在日出后出现，在中午达到顶峰，而在日落后消失。日落之后 D 层消失，从而打开了低波段，而且整晚一直保持开放...</div></div></div></a><a class="pagination-related" href="/2026/01/29/4-%E6%B5%85%E8%B0%88%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%91%BC%E5%8F%B7/" title="浅谈业余无线电呼号"><img class="cover" src="/img/cover6.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026年01月29日</div><div class="info-item-2">浅谈业余无线电呼号</div></div><div class="info-2"><div class="info-item-1">业余无线电呼号是业余无线电爱好者在进行无线电通信时使用的全球唯一标识。通常由字母和数字组成。不同国家和地区的呼号有其特定的格式。        以我国呼号为例，由四部分组成。        第一部分为代表国家的字母前缀，由“B”表示；        第二部分为电台性质或操作等级代号，由一位英文字母表示，A、D、G、H、I代表业余电台，J代表业余信标台和卫星业余电台，R代表业余中继台；       第三部分为我国业余电台分区（卫星业余业务列在第一区），即电台所处分区的分区号，由一位阿拉伯数字表示；  第四部分为后缀，以区分不同的业余电台。收信台后缀由四到五位阿拉伯数字表示，联络台及其它发信台后缀由二到四位英文字母及数字的组合表示，且最后一位为英文字母。 现在，我们取得了呼号，也了解其中的含义，在开始正式通联之前，还是建议新手HAM要先守听一段时间，听听老HAM们是如何在频率上通联的，同时，还要熟悉字母解释法和通联规范，经过一段时间的熟悉，就可以开始愉快的通联啦。 73！ </div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="comment-switch"><span class="first-comment">Twikoo</span><span id="switch-btn"></span><span class="second-comment">Giscus</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/logo.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">BI1MXY</div><div class="author-info-description">分享业余无线电知识，记录机械&电子小制作过程，还有一些碎碎念。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">24</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">14</div></a></div><div class="card-info-social-icons"><a class="social-icon" href="https://space.bilibili.com/491806462" target="_blank" title="哔哩哔哩"><i class="fab fa-bilibili" style="color: #24292e;"></i></a><a class="social-icon" href="https://v.douyin.com/eIxgz5frFu8/ 4@2.com :5pm" target="_blank" title="抖音"><i class="fab fa-tiktok" style="color: #4a7dbe;"></i></a><a class="social-icon" href="/img/qrcode_wechat.png" target="_blank" title="微信公众号"><i class="fab fa-weixin" style="color: #07C160;"></i></a><a class="social-icon" href="https://www.zhihu.com/people/guo-zi-mian-bao-10" target="_blank" title="知乎"><i class="fab fa-zhihu" style="color: #0084FF;"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><div style="font-family: system-ui, -apple-system, sans-serif;">
+  <!-- UTC 时间卡 -->
+  <div style="background: #f8f9fa; border-radius: 10px; padding: 12px; margin-bottom: 10px; border-left: 4px solid #4CAF50;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+      <span style="font-size: 13px; color: #666; letter-spacing: 0.5px;">UTC (ZULU) - 世界时</span>
+      <span style="font-size: 11px; color: #999; background: #e9ecef; padding: 2px 8px; border-radius: 12px;">UTC+0</span>
+    </div>
+    <div id="utc-time" style="font-size: 28px; font-weight: 600; font-family: 'JetBrains Mono', 'SF Mono', monospace; color: #2c3e50; letter-spacing: 2px;">--:--:--</div>
+  </div>
+
+  <!-- 北京时间卡 -->
+  <div style="background: #f8f9fa; border-radius: 10px; padding: 12px; border-left: 4px solid #e67e22;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+      <span style="font-size: 13px; color: #666; letter-spacing: 0.5px;">北京时间 (BJT) - UTC+8</span>
+      <span style="font-size: 11px; color: #999; background: #e9ecef; padding: 2px 8px; border-radius: 12px;">UTC+8</span>
+    </div>
+    <div id="beijing-time" style="font-size: 28px; font-weight: 600; font-family: 'JetBrains Mono', 'SF Mono', monospace; color: #2c3e50; letter-spacing: 2px;">--:--:--</div>
+  </div>
+
+  <div style="margin-top: 12px; font-size: 12px; color: #999; text-align: center; border-top: 1px dashed #dee2e6; padding-top: 8px;">
+    欢迎来到我的博客！
+  </div>
+</div>
+
+<script>
+  function updateTimes() {
+    const now = new Date();
+    const pad = n => n.toString().padStart(2, '0');
+  
+    // UTC时间 (带秒)
+    const utcHours = pad(now.getUTCHours());
+    const utcMins = pad(now.getUTCMinutes());
+    const utcSecs = pad(now.getUTCSeconds());
+    document.getElementById('utc-time').innerHTML = `${utcHours}:${utcMins}:${utcSecs}`;
+  
+    // 北京时间 (UTC+8)
+    let bjHours = now.getUTCHours() + 8;
+    if (bjHours >= 24) bjHours -= 24;
+    document.getElementById('beijing-time').innerHTML = `${pad(bjHours)}:${pad(now.getUTCMinutes())}:${pad(now.getUTCSeconds())}`;
+  }
+  updateTimes();
+  setInterval(updateTimes, 1000);
+</script>
+</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/" title="复刻CW手键电脑转接器"><img src="/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="复刻CW手键电脑转接器"/></a><div class="content"><a class="title" href="/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/" title="复刻CW手键电脑转接器">复刻CW手键电脑转接器</a><time datetime="2026-03-30T13:59:20.000Z" title="发表于 2026年03月30日 21:59:20">2026年03月30日</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/" title="如何制作PCB呼号牌"><img src="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何制作PCB呼号牌"/></a><div class="content"><a class="title" href="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/" title="如何制作PCB呼号牌">如何制作PCB呼号牌</a><time datetime="2026-03-19T13:53:24.000Z" title="发表于 2026年03月19日 21:53:24">2026年03月19日</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/03/11/22-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84wavelog%E9%80%9A%E8%81%94%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F/" title="如何搭建自己的wavelog通联日志系统"><img src="/2026/03/11/22-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84wavelog%E9%80%9A%E8%81%94%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F/cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何搭建自己的wavelog通联日志系统"/></a><div class="content"><a class="title" href="/2026/03/11/22-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84wavelog%E9%80%9A%E8%81%94%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F/" title="如何搭建自己的wavelog通联日志系统">如何搭建自己的wavelog通联日志系统</a><time datetime="2026-03-11T12:09:58.000Z" title="发表于 2026年03月11日 20:09:58">2026年03月11日</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/" title="如何进行业余卫星通联"><img src="/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何进行业余卫星通联"/></a><div class="content"><a class="title" href="/2026/03/03/21-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E4%B8%9A%E4%BD%99%E5%8D%AB%E6%98%9F%E9%80%9A%E8%81%94/" title="如何进行业余卫星通联">如何进行业余卫星通联</a><time datetime="2026-03-03T12:43:14.000Z" title="发表于 2026年03月03日 20:43:14">2026年03月03日</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/02/26/20-%E5%A6%82%E4%BD%95%E7%BB%83%E4%B9%A0%E5%AD%97%E6%AF%8D%E8%A7%A3%E9%87%8A%E6%B3%95%E5%90%AC%E6%8A%84/" title="如何练习字母解释法听抄"><img src="/2026/02/26/20-%E5%A6%82%E4%BD%95%E7%BB%83%E4%B9%A0%E5%AD%97%E6%AF%8D%E8%A7%A3%E9%87%8A%E6%B3%95%E5%90%AC%E6%8A%84/cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何练习字母解释法听抄"/></a><div class="content"><a class="title" href="/2026/02/26/20-%E5%A6%82%E4%BD%95%E7%BB%83%E4%B9%A0%E5%AD%97%E6%AF%8D%E8%A7%A3%E9%87%8A%E6%B3%95%E5%90%AC%E6%8A%84/" title="如何练习字母解释法听抄">如何练习字母解释法听抄</a><time datetime="2026-02-26T14:05:04.000Z" title="发表于 2026年02月26日 22:05:04">2026年02月26日</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(/img/foot.jpg);"><div class="footer-flex"><div class="footer-flex-items" style="flex-grow:2"><div class="footer-flex-item"><div class="footer-flex-title">导航</div><div class="footer-flex-content"><a href="/" target="_blank" title="首页">首页</a><a href="/archives/" target="_blank" title="归档">归档</a><a href="/categories/" target="_blank" title="分类">分类</a><a href="/tags/" target="_blank" title="标签">标签</a><a href="/about/" target="_blank" title="关于我">关于我</a><a href="/timeline/" target="_blank" title="建站日志">建站日志</a><a href="/messageboard/" target="_blank" title="留言板">留言板</a><a href="/qsl/" target="_blank" title="交换QSL卡片">交换QSL卡片</a></div></div></div><div class="footer-flex-items" style="flex-grow:3"><div class="footer-flex-item"><div class="footer-flex-title">业余无线电工具集</div><div class="footer-flex-content"><a href="/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%B7%A5%E5%85%B7%E9%9B%86/ham-toolbox/" target="_blank" title="HAM工具箱">HAM工具箱</a><a href="https://www.cqid.cn/news/article" target="_blank" title="考试信息">考试信息</a><a href="/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E5%B7%A5%E5%85%B7%E9%9B%86/ham-chart/" target="_blank" title="HAM图表">HAM图表</a><a href="https://repeater.quickso.cn/" target="_blank" title="中继地图">中继地图</a><a href="http://yc-yjwp.ysepan.com/" target="_blank" title="软件库">软件库</a></div></div></div></div><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By BI1MXY</span><span class="framework-info"><span class="footer-separator">|</span><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.3</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.3"></script><script src="/js/main.js?v=5.5.3"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://tubular-daifuku-292ce1.netlify.app/.netlify/functions/twikoo',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = (el = document, path = location.pathname) => {
+    twikoo.init({
+      el: el.querySelector('#twikoo-wrap'),
+      envId: 'https://tubular-daifuku-292ce1.netlify.app/.netlify/functions/twikoo',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      },
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    
+
+    isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
+      if (el.children.length) {
+        el.innerHTML = ''
+        el.classList.add('no-comment')
+      }
+    })
+  }
+
+  const loadTwikoo = (el, path) => {
+    if (typeof twikoo === 'object') setTimeout(() => init(el, path), 0)
+    else btf.getScript('https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.all.min.js').then(() => init(el, path))
+  }
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Twikoo'
+      ? window.shuoshuoComment = { loadComment: loadTwikoo }
+      : window.loadOtherComment = loadTwikoo
+    return
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getGiscusTheme = theme => theme === 'dark' ? 'dark' : 'light'
+
+  const createScriptElement = config => {
+    const ele = document.createElement('script')
+    Object.entries(config).forEach(([key, value]) => {
+      ele.setAttribute(key, value)
+    })
+    return ele
+  }
+
+  const loadGiscus = (el = document, key) => {
+    const mappingConfig = isShuoshuo
+      ? { 'data-mapping': 'specific', 'data-term': key }
+      : { 'data-mapping': (option && option['data-mapping']) || 'pathname' }
+
+    const giscusConfig = {
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'bi1mxy/bi1mxy.github.io',
+      'data-repo-id': 'R_kgDOPfYLYg',
+      'data-category-id': 'DIC_kwDOPfYLYs4C1xU7',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true,
+      ...option,
+      ...mappingConfig
+    }
+
+    const scriptElement = createScriptElement(giscusConfig)
+
+    el.querySelector('#giscus-wrap').appendChild(scriptElement)
+
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGiscus = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+  }
+
+  const changeGiscusTheme = theme => {
+    const iframe = document.querySelector('#giscus-wrap iframe')
+    if (iframe) {
+      const message = {
+        giscus: {
+          setConfig: {
+            theme: getGiscusTheme(theme)
+          }
+        }
+      }
+      iframe.contentWindow.postMessage(message, 'https://giscus.app')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Giscus'
+      ? window.shuoshuoComment = { loadComment: loadGiscus }
+      : window.loadOtherComment = loadGiscus
+    return
+  }
+
+  if ('Twikoo' === 'Giscus' || !false) {
+    if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment = loadGiscus
+  }
+})()</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.3"></script></div></div></body></html>

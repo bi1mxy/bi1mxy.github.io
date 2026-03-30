@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>复刻CW手键电脑转接器</title>
+      <link href="/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/"/>
+      <url>/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<p>这是BI8EGZ大佬的开源项目，分享一下我的复刻过程。</p><p><a href="https://link.zhihu.com/?target=https://github.com/mengxw8/ebook2cwgui/tree/master">https://link.zhihu.com/?target=https%3A//github.com/mengxw8/ebook2cwgui/tree/master</a></p><p>首先下载项目的开源资料，国内链接github网站不稳定，打不开就多试几次。</p><p>下载zip文件。</p><p><img src="/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/1.png" alt="图片"></p><p>找到firmwire里的gerber文件：“CW电脑练习器v1.0”，使用嘉立创PCB免费打样，得到5块板子。</p><p>导出BOM（物理清单）进行采购，因为所需物料较少，问了很多TB商家都不配单（不够起订量），最终是问了EGZ大佬才推荐了一家能够小批量配单的商家，这里也分享给大家（非广勿喷）。</p><p><a href="https://link.zhihu.com/?target=https://e.tb.cn/h.7nIu4Zb3RWbM2nV?tk=bO9RUUP95cw">https://link.zhihu.com/?target=https%3A//e.tb.cn/h.7nIu4Zb3RWbM2nV%3Ftk%3DbO9RUUP95cw</a></p><p>之后就是焊接了，建议使用热风枪，反正我用烙铁是焊不好，以后要是复刻的项目多了，可以考虑入手一个焊台，我看正点原子的HP20就不错，不知道原子哥能不能送我一个，哈哈。</p><p>焊好之后还需要编译代码和烧录程序，对我编程小白的我来说写代码太难了，不过项目里已经编译好，新手友好，直接下载就好了。但是项目里的.hex文件有点问题，我找EGZ重新编译了一下，分享给大家。</p><p><a href="https://link.zhihu.com/?target=https://pan.baidu.com/s/1kh3YzstoXQK5Pf3tZgUetw">https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1kh3YzstoXQK5Pf3tZgUetw</a></p><p>最后就是烧录程序了。因为使用的芯片是南京沁恒的ch552，要先到官网下载烧录程序，地址如下：</p><p><a href="https://link.zhihu.com/?target=https://www.wch.cn/downloads/WCHISPTool_Setup_exe.html">https://link.zhihu.com/?target=https%3A//www.wch.cn/downloads/WCHISPTool_Setup_exe.html</a></p><p><img src="/2026/03/30/24-%E5%A4%8D%E5%88%BBCW%E6%89%8B%E9%94%AE%E7%94%B5%E8%84%91%E8%BD%AC%E6%8E%A5%E5%99%A8/2.png" alt="图片"></p><p>按照图片红框选择，最后点击下载就OK啦。烧录完成后需要手键配合电脑软件Lakey使用。软件也分享给大家：</p><p>通过网盘分享的文件：Lakey<br>链接: <a href="https://pan.baidu.com/s/1exSYIuek3-KgIeeBSU3_VQ?pwd=x3pm">https://pan.baidu.com/s/1exSYIuek3-KgIeeBSU3_VQ?pwd=x3pm</a> 提取码: x3pm</p><p>好了，有兴趣小伙伴也搞起来吧</p><p>DE BI1MXY</p><p>73</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 业余无线电 </category>
+          
+          <category> 电子DIY </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 业余无线电 </tag>
+            
+            <tag> 电子DIY </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何制作PCB呼号牌</title>
       <link href="/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/"/>
       <url>/2026/03/19/23-%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9CPCB%E5%91%BC%E5%8F%B7%E7%89%8C/</url>
