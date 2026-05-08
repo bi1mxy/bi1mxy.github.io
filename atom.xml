@@ -10,7 +10,28 @@
   <rights>All rights reserved 2026, BI1MXY</rights>
   <subtitle>体谅、忠诚、进取、友爱、适度、爱国</subtitle>
   <title>麦香鱼的无线电小屋</title>
-  <updated>2026-04-16T14:45:08.000Z</updated>
+  <updated>2026-05-08T13:57:55.000Z</updated>
+  <entry>
+    <author>
+      <name>BI1MXY</name>
+    </author>
+    <category term="业余无线电" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
+    <category term="梅登黑德网格" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC/"/>
+    <category term="业余无线电" scheme="https://bi1mxy.github.io/tags/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
+    <category term="梅登黑德网格" scheme="https://bi1mxy.github.io/tags/%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC/"/>
+    <content>
+      <![CDATA[<p>The Grid Square Locator，也称为梅登黑德定位系统，是一种使用6个字符作为代码的地理坐标系统，业余无线电爱好者广泛采用该系统来识别和分享其所在的大致位置。</p><p>QTH Locator, QRA Locator, Maidenhead Locator and WW Grid Locator system这些都代表同一个系统的名称，让我们尝试追溯这些名字的历史和起源。</p><h1 id="梅登黑德定位系统的历史"><a href="#梅登黑德定位系统的历史" class="headerlink" title="梅登黑德定位系统的历史"></a>梅登黑德定位系统的历史</h1><p>我们今天所知的网格方块定位系统，是对20世纪50年代末发明的一种方法的演变，目的是帮助计算VHF比赛的得分。这种系统已经被欧洲的业余无线电爱好者使用了几十年。</p><h2 id="QRA-Locator（QRA定位）"><a href="#QRA-Locator（QRA定位）" class="headerlink" title="QRA-Locator（QRA定位）"></a>QRA-Locator（QRA定位）</h2><p>为了方便测量该距离，DL3NQ于1958年在温海姆举行的DL（德国）VHF会议上推出了一种名为QRA-Kennen的方法，基于五位数字编码。</p><p>该系统使用两个字母表示最大单位“square”，即经度2度 × 纬度1度。该系统覆盖东经0-52度、北纬40-66度的区域。</p><p>QRA-Locator由一个五字符代码组成，包含两个大写字母、一个两位数字和一个小写字母，例如AB55m。</p><p><img src="/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/1.png" alt="图片"></p><p>该新系统于1958年秋季在OK（捷克斯洛伐克，已于1993年注销DXCC实体）VHF竞赛中成功测试，1959年10月海牙VHF会议上取得积极结果后，决定将该方法提交为QRA-Locator，作为IARU R1的官方推荐方法。</p><h2 id="QTH-定位器（QTH-Locator）"><a href="#QTH-定位器（QTH-Locator）" class="headerlink" title="QTH 定位器（QTH Locator）"></a>QTH 定位器（QTH Locator）</h2><p>1966年在奥帕蒂亚举行的第1区会议上，该地图被采纳为官方的第1区QRA-Locator地图，1972年更名为“QTH定位器”。</p><p>当第一区以外的业余爱好者，尤其是北美第二区，开始使用该系统时，他们发现它存在歧义，且不适用于其他地区，因为正方形（square）并不唯一，且同一区域可以在地球的多个区域重复使用。</p><p>显而易见，要让其他地区采用类似欧洲的系统，必须开发出不同的算法。</p><p>讨论并提出了一种新的基于经纬度位置的六位数编码的方法。</p><p>1980年4月，欧洲VHF管理者在英国伦敦附近的梅登黑德召开会议，1982年IARU第一区于1985年1月1日正式采用了我们今天所知的新定位系统。</p><h1 id="梅登黑德定位系统的工作原理"><a href="#梅登黑德定位系统的工作原理" class="headerlink" title="梅登黑德定位系统的工作原理"></a>梅登黑德定位系统的工作原理</h1><p>梅登黑德定位系统仅由字母和数字组成的六位数字代码表示地球上的位置，类似JF96EB。</p><p>定位系统基于三个元素：Fields,Squares 和Sub-Squares，大小不同，且呈矩形（不算正方形），每个元素由一对数字表示。</p><h2 id="梅登黑德定位系统的要素"><a href="#梅登黑德定位系统的要素" class="headerlink" title="梅登黑德定位系统的要素"></a>梅登黑德定位系统的要素</h2><ul><li>世界首先被划分为（18×18）324个Fields</li><li>每个Fields被100个Squares</li><li>每个Squares被划分为576个Sub-Squares</li></ul><p><img src="/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/2.png" alt="图片"></p><h2 id="梅登黑德定位系统代码解析"><a href="#梅登黑德定位系统代码解析" class="headerlink" title="梅登黑德定位系统代码解析"></a>梅登黑德定位系统代码解析</h2><p>代码的每个字符都有其特定的含义，对应特定的坐标值，无论是经度还是纬度。</p><p>以JF96EB为例，其中第一、第三和第五个字符J 9 E表示经度，剩余的三个字符（F 6 B）表示纬度。</p><p>而这六个字符又被两两一组分为三层（组），“JF、96、EB”，每组的第一个字符代表经度，第二个字符代表每个层级的纬度。编号始终为从西到东、从南到北。</p><p><img src="/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/3.jpg" alt="图片"></p><p>下面，我们来说明每组字符如何取值以及变化的规律。</p><h2 id="第一组：Fields"><a href="#第一组：Fields" class="headerlink" title="第一组：Fields"></a>第一组：Fields</h2><ul><li>世界首先被划分为（18×18）324个名为“Fields”的非常大的区域。</li><li>每个Fields的长度为经度20度 × 纬度10度。</li><li>该组字段由两个字母 AA – RR 表示</li></ul><p><img src="/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/4.jpg" alt="图片"></p><p><img src="/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/5.png" alt="图片"></p><p>第一组字段中的第一个字符（J）：每变化一个字符代表20°经度的变化，其值可以从字母A（对应180°W至160°W间隔）变化（字母J对应20° W至0°）一直到字母R，R对应东经160°至180°东经。</p><p>第一组字段中的第二个字符（F），每变化一个字符代表10°纬度的变化，例如，字母A覆盖南纬90°至80°区间，B代表南纬80°至70°，依此类推直到R，R指定了北纬80°至北纬90度。</p><p>因此，A到R是前两个字符可能的字母范围。</p><p>在网格定位系统中，西经和南纬被视为负值，而东经和北纬则为正值。</p><h2 id="第二组：Squares"><a href="#第二组：Squares" class="headerlink" title="第二组：Squares"></a>第二组：Squares</h2><ul><li>每个Field被分成100个square</li><li>每个square为：经度2度 × 纬度1度。</li><li>每个square由两位数 00 – 99组成</li></ul><p><img src="/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/6.jpg" alt="图片"><br><img src="/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/7.png" alt="图片"></p><p>第三和第四个字符是0到9之间的数字。第三个字符每递增一个数字，经度就变化2°。第四个字符每递增一个数字，纬度就变化1°。</p><h2 id="第三组：Sub-Squares"><a href="#第三组：Sub-Squares" class="headerlink" title="第三组：Sub-Squares"></a>第三组：Sub-Squares</h2><ul><li>每个square被划分为576个Sub-Squares</li><li>Sub-Squares按两个字母排列 AA – XX。</li><li>每个Sub-Squares为：5分经度 × 2.5分纬度。</li></ul><p><img src="/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/8.jpg" alt="图片"><br><img src="/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/9.png" alt="图片"></p><p>最后两个字符可能的字母范围为A到X。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>梅登黑德网格定位系统是业余无线电通信中的关键工具，允许使用通用坐标码共享精确位置。</p><p>什么是梅登黑德定位系统？网格方块定位系统，或称梅登黑德定位系统，是一种业余无线电用来描述地理位置的坐标系统，使用简短的字母数字代码，如JF96EB。</p><p>谁发明了梅登黑德定位系统？该系统由一群欧洲VHF管理者于1980年在英国梅登黑德会议开发，并于1985年被IARU第一区正式采纳。<br>QRA Locator 和 QTH Locator 有什么区别？QRA定位器是1958年推出的早期欧洲系统，而QTH定位器则是其后期版本，于1972年被IARU第一区采用。这两个都早于现今的梅登黑德定位器<br>梅登黑德定位器是如何工作的？它将地球划分为Fields,Squares 和Sub-Squares组成的网格。六字符代码中的每对字母或数字代表经度和纬度。<br>为什么业余无线电爱好者使用网格方块？网格方块简化了联系、竞赛和奖项中位置数据的交换。它们允许快速计算两个站点之间的距离和方向。<br>我可以用梅登黑德定位器做非无线电用途吗？是的。网格系统有时用于地图绘制以及其他需要简洁地理编码的应用。</p><p>我该如何找到我的业余无线电网格方格？你可以通过在线计算器、地图工具或业余无线电应用，根据GPS坐标确定定位器，这些应用将纬度和经度转换为梅登黑德代码。</p>]]>
+    </content>
+    <id>https://bi1mxy.github.io/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/</id>
+    <link href="https://bi1mxy.github.io/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/"/>
+    <published>2026-05-08T13:57:55.000Z</published>
+    <summary>
+      <![CDATA[<p>The Grid Square Locator，也称为梅登黑德定位系统，是一种使用6个字符作为代码的地理坐标系统，业余无线电爱好者广泛采用该系统来识别和分享其所在的大致位置。</p>
+<p>QTH Locator, QRA Locator, Maidenhead]]>
+    </summary>
+    <title>梅登黑德网格定位系统的工作原理及其起源</title>
+    <updated>2026-05-08T13:57:55.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>BI1MXY</name>
@@ -407,27 +428,5 @@
     </summary>
     <title>如何完成一次业余无线电通联</title>
     <updated>2026-01-30T16:11:28.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>BI1MXY</name>
-    </author>
-    <category term="业余无线电" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
-    <category term="新手入门" scheme="https://bi1mxy.github.io/categories/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/"/>
-    <category term="业余无线电" scheme="https://bi1mxy.github.io/tags/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5/"/>
-    <category term="新手入门" scheme="https://bi1mxy.github.io/tags/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/"/>
-    <category term="UTC" scheme="https://bi1mxy.github.io/tags/UTC/"/>
-    <category term="世界协调时" scheme="https://bi1mxy.github.io/tags/%E4%B8%96%E7%95%8C%E5%8D%8F%E8%B0%83%E6%97%B6/"/>
-    <content>
-      <![CDATA[<p>在业余无线电的精彩世界里，世界协调时（Universal Coordinated Time，缩写为 UTC）犹如一颗精准的 “时间指针”，发挥着极其重要的作用。对于广大业余无线电爱好者来说，理解和正确运用世界协调时，是开启顺畅通信之旅的关键钥匙。</p><p>UTC是一种国际标准时间。它以原子时秒长为基础，在时刻上尽量接近格林尼治标准时间（GMT）原子时是通过原子物理特性来定义秒长的时间计量系统，具体来说，铯 - 133 原子基态的两个超精细能级间跃迁对应辐射的 9192631770 个周期的持续时间被定义为 1 秒。简单来说，UTC 就是为了在全球范围内提供一个准确、统一且可靠的时间标准，以便各种活动能够在时间上实现同步和协调。</p><p>业余无线电通信是一项全球性的活动，爱好者们来自不同的国家和地区，跨越着不同的时区。在日常生活中，人们总是习惯使用当地时间（如“北京时间”“东京时间”“莫斯科时间”等）。但在国际无线电通信中，如果没有一个统一的时间标准，而是仍使用各自的地方时间，那将会十分麻烦。世界协调时的出现，恰好解决了这个问题。无论你身处世界的哪个角落，只要依据 UTC 来进行通信时间的约定和安排，就能够确保双方在同一时间 “线上”，避免因时间差异而导致的沟通不畅。例如，一位在中国的业余无线电爱好者想要与美国的爱好者进行通信，他们可以根据 UTC 来确定一个双方都合适的通信时间，从而顺利开展交流。</p><p>因此，国际电信联盟 ITU规定：在国际无线电通信中，除另有指明者外，均应使用 UTC 时间。根据 ITU 规定，UTC应用 4 位数字（即“时时分分”）表示，如 8 时 26分应写成“0826UTC”，19时 30 分应写成“1930UTC”等。</p><p>UTC 相当于本初子午线（即经度 0°）上的平均太阳时，过去曾用格林尼治平均时（GMT）来表示。如果时间使用了协调世界时，它所表示的日期和时间就是本初子午线上的日期和时间。例如“1990 年 7 月 15 日 0000UTC”即为本初子午线上的 1990 年 7 月 15 日零时整，这时的北京时间已是 7 月 15 日上午 8 时整，而美国旧金山却是 7 月 14 日的 16 时整。</p><p>UTC 与各地的地方时如何换算呢？全世界共有 24 个时区，以本初子午线（即经度 0°）为基准，向东、向西各 12 个时区。也就是说，经度每隔 15°即为一个时区，时间就相差 1 小时。从本初子午线向东每增加一个时区，时间就增加1 小时，向西则每增加一个时区时间就减少 1 小时。北京在东八区，当地时间比 UTC 增加 8 小时，所以是 8 时整；而旧金山在西八区，要比 UTC 减少 8 小时，所以是前一天的 16 时。</p><p><img src="/2026/01/30/6-%E4%BB%80%E4%B9%88%E6%98%AFUTC%EF%BC%88%E4%B8%96%E7%95%8C%E5%8D%8F%E8%B0%83%E6%97%B6%EF%BC%89%EF%BC%9F/1.png" alt="图片"></p><p>在实际应用中，业余无线电爱好者需要注意以下几点：</p><p>夏令时调整：有些国家或地区会实行夏令时制度，这会导致当地时间与UTC的换算关系发生变化。在通信前，务必确认对方是否处于夏令时期间。<br>日期变更线：当UTC时间跨越午夜时，不同时区的日期可能不同，这在安排跨日通信时需要特别注意。<br>数字表示法：在书面记录中，UTC时间应采用24小时制，如”1430UTC”表示UTC时间下午2点30分。<br>对于业余无线电爱好者来说，日志记录是一项非常重要的工作。它不仅可以帮助爱好者回顾自己的通信经历，还可以作为与其他爱好者交流和分享的依据。在日志记录中，准确的时间信息是必不可少的，而世界协调时就是最常用的时间标准。爱好者们在记录通信日志时，通常会使用 UTC 来记录通信的开始时间、结束时间等信息，以便日后查询和分析。这样一来，无论在何时何地，只要查看日志，就能够清楚地了解到通信发生的具体时间，为爱好者们的研究和交流提供了准确的时间参考。</p><p><img src="/2026/01/30/6-%E4%BB%80%E4%B9%88%E6%98%AFUTC%EF%BC%88%E4%B8%96%E7%95%8C%E5%8D%8F%E8%B0%83%E6%97%B6%EF%BC%89%EF%BC%9F/2.jpg" alt="图片"></p><p>在业余无线电竞赛和特殊活动中，UTC时间的使用尤为重要。例如：</p><ul><li>竞赛活动：大多数国际性业余无线电竞赛都要求使用UTC时间记录所有的通联信息。</li><li>卫星通信：由于业余卫星的覆盖范围快速变化，使用UTC可以精确协调地面站与卫星的通信窗口。</li><li>应急通信：在灾害应急通信中，UTC可以确保来自不同地区的救援队伍使用统一的时间参考。</li></ul><p>为了方便UTC时间的获取，业余无线电爱好者可以：</p><ul><li>使用具有UTC显示功能的电台设备</li><li>安装网络时间协议（NTP）软件同步UTC时间</li><li>收听标准时间发播台（如WWV、BPM等）的信号</li><li>使用GPS设备获取精确的UTC时间</li><li>系统自带时钟</li></ul><p>总之，世界协调时在业余无线电领域的应用广泛而重要。它为业余无线电爱好者们提供了一个统一的时间标准，使得全球范围内的通信、竞赛、频率协调和日志记录等活动都能够有序地进行。对于每一位热爱业余无线电的人来说，深入理解和正确运用世界协调时，是提升自己无线电技能和体验的重要一步。让我们在 UTC 的指引下，尽情享受业余无线电带来的乐趣和挑战吧！</p>]]>
-    </content>
-    <id>https://bi1mxy.github.io/2026/01/30/6-%E4%BB%80%E4%B9%88%E6%98%AFUTC%EF%BC%88%E4%B8%96%E7%95%8C%E5%8D%8F%E8%B0%83%E6%97%B6%EF%BC%89%EF%BC%9F/</id>
-    <link href="https://bi1mxy.github.io/2026/01/30/6-%E4%BB%80%E4%B9%88%E6%98%AFUTC%EF%BC%88%E4%B8%96%E7%95%8C%E5%8D%8F%E8%B0%83%E6%97%B6%EF%BC%89%EF%BC%9F/"/>
-    <published>2026-01-30T13:06:41.000Z</published>
-    <summary>
-      <![CDATA[<p>在业余无线电的精彩世界里，世界协调时（Universal Coordinated Time，缩写为 UTC）犹如一颗精准的]]>
-    </summary>
-    <title>什么是UTC（世界协调时）？</title>
-    <updated>2026-01-30T13:06:41.000Z</updated>
   </entry>
 </feed>
