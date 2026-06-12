@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>LEO、MEO、GEO和HEO轨道的区别</title>
+      <link href="/2026/06/12/27-LEO%E3%80%81MEO%E3%80%81GEO%E5%92%8CHEO%E8%BD%A8%E9%81%93%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+      <url>/2026/06/12/27-LEO%E3%80%81MEO%E3%80%81GEO%E5%92%8CHEO%E8%BD%A8%E9%81%93%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
+      
+        <content type="html"><![CDATA[<p>现代卫星根据任务在不同轨道上运行——从提供GPS信号，到研究地球，再到实现全球通信。这些轨道大致分为近地轨道（LEO）、中地球轨道（MEO）、地球同步轨道（GEO）和高地球轨道（HEO）。<br>每个轨道都有独特的高度、速度、覆盖范围和应用范围。下面，我们就来了解一下他们之间的差异。</p><h1 id="1-LEO（Low-Earth-Orbit）——近地轨道-低地球轨道"><a href="#1-LEO（Low-Earth-Orbit）——近地轨道-低地球轨道" class="headerlink" title="1. LEO（Low Earth Orbit）——近地轨道&#x2F;低地球轨道"></a>1. LEO（Low Earth Orbit）——近地轨道&#x2F;低地球轨道</h1><p>高度：<del>160公里至2000公里<br>轨道周期：90–120分钟<br>速度：</del>7.8公里&#x2F;秒<br>覆盖范围：每次经过区域覆盖较小</p><p>LEO的样子<br>想象一颗卫星飞得非常近。你可以清楚地看到曲率，它每天绕地球大约16圈。</p><p>主要特征：</p><ul><li>最快移动轨道</li><li>最适合高分辨率图像</li><li>随着地球自转，频繁覆盖不同区域</li></ul><p>示例</p><ul><li>国际空间站（ISS）</li><li>地球观测卫星</li><li>星链宽带星座</li><li>雷达成像卫星</li></ul><p>优点</p><ul><li>低延迟（对互联网服务非常友好）</li><li>由于低空降低发射成本</li><li>高图像分辨率</li></ul><p>局限性</p><ul><li>覆盖范围较小</li><li>卫星需要不断重新定位或更换（阻力、轨道衰减）</li></ul><h1 id="2-MEO（Medium-Earth-Orbit）-–-中地球轨道"><a href="#2-MEO（Medium-Earth-Orbit）-–-中地球轨道" class="headerlink" title="2. MEO（Medium Earth Orbit） – 中地球轨道"></a>2. MEO（Medium Earth Orbit） – 中地球轨道</h1><p>高度：~2,000公里至20,000公里<br>轨道周期：2–12小时<br>覆盖范围：区域覆盖范围更大<br>MEO的样子<br>一个中等高度轨道——明显比低地轨道高，但距离不算非常远。卫星相对于地球看起来更慢。</p><p>主要特征</p><ul><li>覆盖与信号延迟之间的平衡</li><li>寿命优于近地轨道卫星</li></ul><p>示例</p><ul><li>GPS</li><li>导航与定时卫星</li></ul><p>优点</p><ul><li>覆盖范围广泛，卫星数量减少</li><li>低阻力的稳定轨道</li><li>非常适合导航系统</li></ul><p>局限性</p><ul><li>比LEO更高的延迟</li><li>比低地球轨道发射更昂贵</li></ul><h1 id="3-GEO（Geostationary-Orbit-Geosynchronous-Equatorial-Orbit）地球静止轨道-地球同步轨道"><a href="#3-GEO（Geostationary-Orbit-Geosynchronous-Equatorial-Orbit）地球静止轨道-地球同步轨道" class="headerlink" title="3. GEO（Geostationary Orbit &#x2F; Geosynchronous Equatorial Orbit）地球静止轨道&#x2F;地球同步轨道"></a>3. GEO（Geostationary Orbit &#x2F; Geosynchronous Equatorial Orbit）地球静止轨道&#x2F;地球同步轨道</h1><p>高度：~35,786公里<br>轨道周期：24小时（与地球自转一致）<br>覆盖范围：每颗卫星覆盖地球的三分之一</p><p>GEO的样子<br>一颗卫星固定在地球上同一地点——就像一座“太空塔”。<br>它在赤道上方形成了一个名为克拉克带的环。</p><p><img src="/2026/06/12/27-LEO%E3%80%81MEO%E3%80%81GEO%E5%92%8CHEO%E8%BD%A8%E9%81%93%E7%9A%84%E5%8C%BA%E5%88%AB/1.png" alt="图片"></p><p>主要特征</p><ul><li>地球同步轨道</li><li>适合连续覆盖同一区域</li><li>只需三颗地球同步轨道卫星即可实现近全球覆盖</li></ul><p>示例</p><ul><li>气象卫星（INSAT，GOES）</li><li>通信卫星（电视、DTH、宽带）</li><li>军事通信卫星</li></ul><p>优点</p><ul><li>持续覆盖一个区域</li><li>非常适合广播、电信和天气监测</li><li>长寿命（10–15年）</li></ul><p>局限性</p><ul><li>最高延迟（~600–700毫秒）</li><li>发射成本极高</li><li>仅适合赤道地区覆盖</li><li>极地覆盖率不佳</li></ul><h1 id="4-HEO（Highly-Elliptical-Orbit）——高椭圆轨道-大椭圆轨道"><a href="#4-HEO（Highly-Elliptical-Orbit）——高椭圆轨道-大椭圆轨道" class="headerlink" title="4. HEO（Highly Elliptical Orbit）——高椭圆轨道&#x2F;大椭圆轨道"></a>4. HEO（Highly Elliptical Orbit）——高椭圆轨道&#x2F;大椭圆轨道</h1><p>高度：高度变化很大<br>近地点：<del>500–1,000公里<br>远地点：</del>40,000公里或更长<br>轨道周期：典型<br>12小时 覆盖范围：极地上空停留时间较长</p><p>HEO的样子<br>一个拉伸的椭圆形轨道，一侧非常接近地球，另一侧极远。<br>卫星大部分时间都在一个半球上空运行。</p><p><img src="/2026/06/12/27-LEO%E3%80%81MEO%E3%80%81GEO%E5%92%8CHEO%E8%BD%A8%E9%81%93%E7%9A%84%E5%8C%BA%E5%88%AB/2.png" alt="图片"></p><p>主要特征</p><ul><li>非常适合极地覆盖（地球同步无法覆盖的区域）</li><li>在目标区域上空停留时间较长</li><li>用于高纬度国家的连续通信</li></ul><p>示例</p><ul><li>莫尔尼亚轨道（俄罗斯）</li><li>苔原轨道</li><li>北极通信卫星</li><li>预警&#x2F;导弹探测卫星</li></ul><p>优点</p><ul><li>非常适合北极地区</li><li>特定区域的高可见性时间</li><li>发射能量低于地球同步轨道卫星（GEO），覆盖范围相当</li></ul><p>局限性</p><ul><li>复杂地面跟踪</li><li>通过时的辐射暴露</li><li>需要卫星组网以实现连续覆盖</li></ul><p>表格比较：LEO、MEO、GEO与HEO<br><img src="/2026/06/12/27-LEO%E3%80%81MEO%E3%80%81GEO%E5%92%8CHEO%E8%BD%A8%E9%81%93%E7%9A%84%E5%8C%BA%E5%88%AB/3.png" alt="图片"></p><p>哪个轨道最适合哪个任务？<br>沟通：GEO（电视、卫星互联网）+ LEO（高速宽带）<br>导航：MEO（GPS，格洛纳斯，伽利略）<br>地球观测：LEO（最近距离→高分辨率）<br>极地覆盖：HEO（莫尔尼亚&#x2F;苔原）<br>科学研究：LEO与HEO（视任务而定）</p><h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>每个轨道——LEO、MEO、GEO 和 HEO——在太空任务中都有独特的作用。<br>了解了各种不同轨道的情况，下一篇文章我们再来聊聊业余无线电通信所涉及到的卫星都是哪种类型的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 轨道区别 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 业余无线电 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>梅登黑德网格定位系统的工作原理及其起源</title>
       <link href="/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/"/>
       <url>/2026/05/08/26-%E6%A2%85%E7%99%BB%E9%BB%91%E5%BE%B7%E7%BD%91%E6%A0%BC%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E8%B5%B7%E6%BA%90/</url>
